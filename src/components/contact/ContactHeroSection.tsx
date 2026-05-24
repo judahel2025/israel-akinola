@@ -36,7 +36,7 @@ export const ContactHeroSection: React.FC = () => {
               transition={{ duration: 0.8 }}
               className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container"
             >
-              Initiate Connection
+              connect with me
             </motion.p>
             
             <motion.h1

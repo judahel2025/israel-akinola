@@ -18,6 +18,12 @@ const services = [
   'Creation',
   'Execution',
   'Finance',
+  'Innovation',
+  'Growth',
+  'Policy and Governance',
+  'Community Building',
+  'Policy Advisory',
+  'Cultural Engineering',
 ]
 
 const containerVariants = {
@@ -25,8 +31,8 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
+      staggerChildren: 0.08,
+      delayChildren: 0.15,
     },
   },
 }
@@ -36,7 +42,7 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
+    transition: { duration: 0.5, ease: 'easeOut' },
   },
 }
 
@@ -53,7 +59,7 @@ export const ServicesGridSection: React.FC = () => {
           className="text-center mb-10 md:mb-16 lg:mb-24"
         >
           <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container mb-4">
-            A Comprehensive Portfolio
+            A COMPREHENSIVE LIST OF
           </p>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-on-surface">
             Core Offerings
@@ -72,7 +78,7 @@ export const ServicesGridSection: React.FC = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-on-surface/[0.02] border border-on-surface/[0.06] p-4 sm:p-6 md:p-10 rounded-[2rem] md:rounded-[2.5rem] group hover:border-primary-container/30 transition-smooth relative overflow-hidden flex items-center justify-center text-center h-36 sm:h-48 md:h-56"
+              className="bg-on-surface/[0.02] border border-on-surface/[0.06] p-4 sm:p-6 md:p-10 rounded-[2rem] md:rounded-[2.5rem] group hover:border-primary-container/30 transition-smooth relative overflow-hidden flex items-center justify-center text-center h-36 sm:h-48 md:h-56 bg-surface/20"
             >
               {/* Subtle hover background */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary-container/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

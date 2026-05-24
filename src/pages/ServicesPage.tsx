@@ -2,7 +2,6 @@ import React from 'react'
 import {
   ServicesHeroSection,
   ServicesGridSection,
-  ServicesBreakdownSection,
   ApproachSection,
   FeatureCTASection,
   ServicesCTA,
@@ -13,7 +12,6 @@ export const ServicesPage: React.FC = () => {
     <div>
       <ServicesHeroSection />
       <ServicesGridSection />
-      <ServicesBreakdownSection />
       <ApproachSection />
       <FeatureCTASection />
       <ServicesCTA />

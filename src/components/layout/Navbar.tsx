@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
               <img
                 src={brandLogo}
                 alt="Israel Akinola"
-                className="h-9 w-auto object-contain sm:h-10 md:h-11"
+                className="h-16 w-auto object-contain sm:h-18 md:h-20 transition-all duration-300 drop-shadow-[0_2px_8px_rgba(255,255,255,0.1)]"
                 loading="eager"
               />
             </Link>
@@ -69,15 +69,7 @@ export const Navbar: React.FC = () => {
               ))}
             </div>
 
-            <Link to="/contact" className="hidden lg:block" data-cursor-hover>
-              <motion.span
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center gap-2 rounded-full bg-primary-container px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.15em] text-on-primary shadow-md"
-              >
-                Let&apos;s Talk
-              </motion.span>
-            </Link>
+
 
             <button
               type="button"
@@ -115,14 +107,7 @@ export const Navbar: React.FC = () => {
                         {item.label}
                       </Link>
                     ))}
-                    <Link
-                      to="/contact"
-                      className="mt-2 rounded-xl bg-primary-container px-4 py-3.5 text-center text-sm font-semibold uppercase tracking-wider text-on-primary"
-                      onClick={() => setIsOpen(false)}
-                      data-cursor-hover
-                    >
-                      Let&apos;s Talk
-                    </Link>
+
                   </div>
                 </div>
               </motion.div>

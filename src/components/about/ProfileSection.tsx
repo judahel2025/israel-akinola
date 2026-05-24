@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import ivyLogo from '../../assets/images/IVY.jpg'
 import squareLogo from '../../assets/images/logos/square-logo.png'
 import collabImage from '../../assets/images/WhatsApp Image 2026-04-20 at 11.44.18.jpeg'
@@ -164,6 +165,26 @@ export const ProfileSection: React.FC = () => {
                 </p>
               </motion.div>
             ))}
+
+            {/* Read Full Bio CTA */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="pt-10 flex justify-start"
+            >
+              <Link to="/about/bio" data-cursor-hover>
+                <motion.span
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-flex items-center gap-3 rounded-full bg-primary-container px-8 py-4 text-xs font-bold uppercase tracking-[0.25em] text-on-primary transition-all shadow-lg hover:shadow-xl animate-pulse"
+                >
+                  Read Full Bio
+                  <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+                </motion.span>
+              </Link>
+            </motion.div>
           </div>
 
         </div>

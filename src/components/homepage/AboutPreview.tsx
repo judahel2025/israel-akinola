@@ -39,21 +39,19 @@ export const AboutPreview: React.FC = () => {
             <motion.p
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
               className="mb-2 text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container"
             >
-              The Architect
+              THINKER STRATEGIST LEADER
             </motion.p>
 
             <motion.h2
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.15 }}
-              className="font-display text-3xl font-semibold uppercase leading-tight tracking-tight text-on-surface sm:text-4xl"
+              className="font-display text-3xl font-bold uppercase leading-tight tracking-tight text-on-surface sm:text-4xl"
             >
-              A Cultural
-              <br />
-              <span className="text-on-surface/60">Engineer</span>
+              ISRAEL AKINOLA
             </motion.h2>
 
             {/* Divider */}
@@ -70,11 +68,11 @@ export const AboutPreview: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="mt-6 space-y-3"
             >
-              <p className="text-sm leading-relaxed text-on-surface-variant sm:text-base">
-                Israel Akinola is a thinker, strategist, and cultural engineer designing systems that elevate the human experience through leadership, innovation, and systemic change.
+              <p className="text-sm leading-relaxed text-on-surface-variant sm:text-base border-l-2 border-primary-container/30 pl-4 py-1 bg-white/[0.02] rounded-r-md">
+                [Profile Creation &mdash; Future Task: The first 2 paragraphs of the profile information will be placed here.]
               </p>
-              <p className="text-sm leading-relaxed text-on-surface-variant/70">
-                With expertise spanning strategy, technology, and human-centered design, I work with organizations and individuals to build transformative solutions that matter.
+              <p className="text-sm leading-relaxed text-on-surface-variant/70 border-l-2 border-primary-container/20 pl-4 py-1 bg-white/[0.01] rounded-r-md">
+                [Please provide the profile information to update this section.]
               </p>
             </motion.div>
 
@@ -86,7 +84,7 @@ export const AboutPreview: React.FC = () => {
               className="mt-8 flex gap-8 border-t border-white/[0.06] pt-6"
             >
               <div>
-                <p className="font-display text-3xl font-semibold text-on-surface">10+</p>
+                <p className="font-display text-3xl font-semibold text-on-surface">7</p>
                 <p className="mt-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-on-surface-variant">Years of Impact</p>
               </div>
               <div className="w-px bg-white/[0.06]" />

@@ -4,23 +4,23 @@ import { motion } from 'framer-motion'
 const approachSteps = [
   {
     number: '01',
-    title: 'Understand',
-    description: 'Deep analysis of the problem and context',
+    title: 'IDEATION',
+    description: 'Deep problem understanding, advanced solutions thinking, and proactive idea seeking.',
   },
   {
     number: '02',
-    title: 'Design',
-    description: 'Strategic system creation and modeling',
+    title: 'CURATION',
+    description: 'Systematic research, strategic profiling, building expert teams, and kick-starting innovation.',
   },
   {
     number: '03',
-    title: 'Execute',
-    description: 'Implementation with precision',
+    title: 'CREATION',
+    description: 'Robust systems design, project development, strategic invention, deployment, and brand architecture.',
   },
   {
     number: '04',
-    title: 'Scale',
-    description: 'Optimization and expansion',
+    title: 'EXECUTION',
+    description: 'Precision deployment, sustainable community building, progressive growth, and acculturation.',
   },
 ]
 
@@ -62,7 +62,7 @@ export const ApproachSection: React.FC = () => {
           className="text-center mb-10 md:mb-16 lg:mb-24"
         >
           <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container mb-4">
-            The Roadmap to Impact
+            PROCESS &
           </p>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-on-surface">
             Approach
@@ -81,7 +81,7 @@ export const ApproachSection: React.FC = () => {
             <motion.div
               key={index}
               variants={stepVariants}
-              className="glass-panel p-5 sm:p-7 md:p-10 rounded-[2rem] md:rounded-[2.5rem] group hover:border-primary-container/30 transition-smooth relative overflow-hidden flex flex-col"
+              className="glass-panel p-5 sm:p-7 md:p-10 rounded-[2rem] md:rounded-[2.5rem] group hover:border-primary-container/30 transition-smooth relative overflow-hidden flex flex-col bg-surface/20"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-primary-container/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               
@@ -92,12 +92,12 @@ export const ApproachSection: React.FC = () => {
                 </div>
 
                 {/* Step Title */}
-                <h3 className="text-xl md:text-2xl font-serif font-bold text-on-surface mb-4 group-hover:text-primary-container transition-colors">
+                <h3 className="text-xl md:text-2xl font-serif font-bold text-on-surface mb-4 group-hover:text-primary-container transition-colors tracking-widest">
                   {step.title}
                 </h3>
 
                 {/* Step Description */}
-                <p className="text-on-surface-variant text-lg font-light leading-relaxed">
+                <p className="text-on-surface-variant text-base font-light leading-relaxed">
                   {step.description}
                 </p>
               </div>

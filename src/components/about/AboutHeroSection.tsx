@@ -34,9 +34,9 @@ export const AboutHeroSection: React.FC = () => {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.8 }}
-              className="text-[10px] font-bold tracking-[0.4em] text-primary-container"
+              className="text-[10px] font-bold tracking-[0.4em] text-primary-container uppercase"
             >
-              The journey and the vision
+              THE MAN, ISRAEL AKINOLA.
             </motion.p>
             
             <motion.h1
@@ -44,10 +44,10 @@ export const AboutHeroSection: React.FC = () => {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="text-4xl sm:text-6xl lg:text-8xl font-serif font-bold leading-[1.1] text-on-surface"
+              className="text-4xl sm:text-6xl lg:text-8xl font-serif font-bold leading-[1.1] text-on-surface uppercase"
             >
-              Israel Akinola,<br />
-              <span className="text-on-surface-variant font-light">a symphony of gifts and graces.</span>
+              ISRAEL AKINOLA,<br />
+              <span className="text-on-surface-variant font-light uppercase">A SYMPHONY OF GIFTS AND GRACES...</span>
             </motion.h1>
           </motion.div>
         </div>

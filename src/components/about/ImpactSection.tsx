@@ -6,17 +6,17 @@ import { Counter } from '../common/Counter'
 const impactStats = [
   {
     number: 50000,
-    label: 'Young people impacted',
+    label: 'people directly and indirectly impacted.',
     suffix: '+',
   },
   {
-    number: 4000,
-    label: 'Digitally skilled in one year',
+    number: 400,
+    label: 'businesss consulted and scaled since 2021',
     suffix: '+',
   },
   {
-    number: 50,
-    label: 'Presence in institutions',
+    number: 12,
+    label: 'large scale projects delivered',
     suffix: '+',
   },
 ]

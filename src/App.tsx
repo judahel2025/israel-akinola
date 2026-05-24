@@ -6,6 +6,7 @@ import { SplashScreen } from './components/common/SplashScreen'
 import { ScrollToTop } from './components/common/ScrollToTop'
 import { HomePage } from './pages/HomePage'
 import { AboutPage } from './pages/AboutPage'
+import { AboutBioPage } from './pages/AboutBioPage'
 import { ServicesPage } from './pages/ServicesPage'
 import { WorkPage } from './pages/WorkPage'
 import { BlogPage } from './pages/Blog'
@@ -41,6 +42,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/about/bio" element={<AboutBioPage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/work" element={<WorkPage />} />
             <Route path="/work/golearn" element={<GoLearnPage />} />

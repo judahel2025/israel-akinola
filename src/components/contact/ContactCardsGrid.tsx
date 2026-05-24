@@ -7,7 +7,7 @@ export const ContactCardsGrid: React.FC = () => {
   const contactOptions = [
     {
       icon: FaEnvelope,
-      title: 'mailto:theisraelakinola@gmail.com',
+      title: 'theisraelakinola@gmail.com',
       link: 'mailto:theisraelakinola@gmail.com',
       isExternal: false,
     },

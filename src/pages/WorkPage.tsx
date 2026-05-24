@@ -5,6 +5,7 @@ import {
   BrandsGridSection,
   WorkCTA,
 } from '../components/work'
+import { FeatureCTASection } from '../components/services/FeatureCTASection'
 
 export const WorkPage: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ export const WorkPage: React.FC = () => {
       <WorkHeroSection />
       <FeaturedCaseStudies />
       <BrandsGridSection />
+      <FeatureCTASection />
       <WorkCTA />
     </div>
   )

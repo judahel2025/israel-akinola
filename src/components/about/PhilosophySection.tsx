@@ -20,7 +20,7 @@ export const PhilosophySection: React.FC = () => {
           className="text-center mb-10 md:mb-16 lg:mb-24"
         >
           <p className="text-[10px] font-bold tracking-[0.4em] text-primary-container mb-4">
-            Foundational truths
+            Truths &
           </p>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-on-surface">
             Philosophy

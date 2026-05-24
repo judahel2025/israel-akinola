@@ -68,7 +68,7 @@ export const BrandsGridSection: React.FC = () => {
             Organizations & Brands
           </h2>
           <p className="text-lg text-on-surface-variant max-w-2xl mx-auto font-light">
-            Collaborating with institutions, startups, and national systems to drive meaningful impact.
+            collaborating with cities, community, companies, citizens...
           </p>
         </motion.div>
 

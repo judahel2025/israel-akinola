@@ -14,7 +14,7 @@ export const FeatureCTASection: React.FC = () => {
         >
           {/* Text */}
           <p className="text-lg sm:text-xl text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
-            For a deeper look into applied systems and structures
+            FOR A DEEPER LOOK INTO OTHER PROJECTS, EXPLORE MY WORK AT IVY
           </p>
 
           {/* Button */}

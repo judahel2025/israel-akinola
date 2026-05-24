@@ -31,11 +31,11 @@ export const FinalCTA: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="mx-auto max-w-4xl font-display text-xl font-semibold uppercase leading-[1.05] tracking-tight text-on-surface sm:text-2xl lg:text-3xl"
+              className="mx-auto max-w-4xl font-display text-xl font-semibold uppercase leading-[1.1] tracking-tight text-on-surface sm:text-2xl lg:text-3xl"
             >
-              Building systems that shape
+              Architecting spaces where
               <br />
-              <span className="text-on-surface/50">people, nations, and the future.</span>
+              <span className="text-on-surface/50">vision meets institutional reality.</span>
             </motion.h2>
 
             <motion.p
@@ -43,9 +43,9 @@ export const FinalCTA: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
               viewport={{ once: true }}
-              className="mx-auto mt-8 mb-12 max-w-2xl text-base leading-relaxed text-on-surface-variant sm:text-lg"
+              className="mx-auto mt-8 mb-12 max-w-2xl text-base leading-relaxed text-on-surface-variant sm:text-lg font-light"
             >
-              Let's collaborate to create meaningful impact through strategic thinking and execution.
+              I partner with ambitious organizations, leaders, and cities to translate complex theories into working, high-impact systems. Let's build what comes next.
             </motion.p>
 
             <motion.div
@@ -70,7 +70,7 @@ export const FinalCTA: React.FC = () => {
                   whileTap={{ scale: 0.98 }}
                   className="inline-flex w-full items-center justify-center rounded-full border border-on-surface/20 bg-surface/5 px-8 py-4 text-[11px] font-bold uppercase tracking-[0.25em] text-on-surface transition-colors hover:bg-on-surface/10 sm:w-auto"
                 >
-                  Learn About My Approach
+                  Discover the Philosophy
                 </motion.span>
               </Link>
             </motion.div>

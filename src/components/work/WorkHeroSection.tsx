@@ -36,7 +36,7 @@ export const WorkHeroSection: React.FC = () => {
               transition={{ duration: 0.8 }}
               className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container"
             >
-              Proof of Concept
+              PROOF
             </motion.p>
             
             <motion.h1

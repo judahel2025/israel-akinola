@@ -36,7 +36,7 @@ export const BlogHeroSection: React.FC = () => {
               transition={{ duration: 0.8 }}
               className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container"
             >
-              Knowledge & Narrative
+              THOUGHTS: PAST, PRESENT & PICTURE
             </motion.p>
             
             <motion.h1

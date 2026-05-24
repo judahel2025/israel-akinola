@@ -64,7 +64,7 @@ export const HeroSection: React.FC = () => {
                   transition={{ delay: 0.1, duration: 0.6 }}
                   src={brandLogo}
                   alt="Israel Akinola"
-                  className="mb-3 hidden h-14 w-auto object-contain brightness-0 invert sm:block md:h-16"
+                  className="mb-6 hidden h-24 w-auto object-contain brightness-0 invert sm:block md:h-28"
                 />
                 <motion.p
                   initial={{ opacity: 0, y: 12 }}
@@ -78,11 +78,13 @@ export const HeroSection: React.FC = () => {
                   initial={{ opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.25, duration: 0.65 }}
-                  className="font-display text-[1.6rem] font-semibold uppercase leading-[1.08] tracking-tight text-white drop-shadow-sm xs:text-3xl sm:text-5xl lg:text-6xl xl:text-[3.5rem]"
+                  className="font-display text-[1.2rem] font-semibold uppercase leading-[1.1] tracking-tight text-white drop-shadow-sm xs:text-2xl sm:text-3xl lg:text-4xl xl:text-[2.8rem]"
                 >
-                  Community-driven
+                  STRATEGY AND INNOVATION,
                   <br />
-                  <span className="text-white/90">leadership & impact</span>
+                  POLICY AND GOVERNANCE,
+                  <br />
+                  <span className="text-white/90">LIFE AND LEADERSHIP</span>
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0, y: 12 }}
@@ -90,8 +92,7 @@ export const HeroSection: React.FC = () => {
                   transition={{ delay: 0.4, duration: 0.6 }}
                   className="mt-3 max-w-md text-[13px] leading-relaxed text-white/70 sm:mt-5 sm:text-base"
                 >
-                  Designing systems that transform ideas into measurable outcomes—for teams,
-                  organizations, and the communities they serve.
+                  DESIGNING SYSTEMS AND SOLUTIONS THAT ELEVATE THE FUNCTIONAL QUALITY OF HUMAN EXISTENCE, AND THE HUMAN EXPERIENCE TO A SUPERIOR PLACE.
                 </motion.p>
 
                 <motion.div

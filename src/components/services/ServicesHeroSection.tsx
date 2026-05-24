@@ -36,7 +36,7 @@ export const ServicesHeroSection: React.FC = () => {
               transition={{ duration: 0.8 }}
               className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary-container"
             >
-              What I Bring to the Table
+              SERVICES
             </motion.p>
             
             <motion.h1
@@ -44,10 +44,10 @@ export const ServicesHeroSection: React.FC = () => {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="text-4xl sm:text-6xl lg:text-8xl font-serif font-bold leading-tight text-on-surface"
+              className="text-4xl sm:text-6xl lg:text-8xl font-serif font-bold leading-tight text-on-surface uppercase"
             >
               Here is my expertise.<br />
-              <span className="text-on-surface-variant font-light">This is what I do.</span>
+              <span className="text-on-surface-variant font-light uppercase">THIS IS WHAT I DO...</span>
             </motion.h1>
           </motion.div>
         </div>
